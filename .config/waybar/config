@@ -1,0 +1,70 @@
+{
+    "layer": "top",
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["custom/memory", "cpu", "custom/audio", "custom/cmus", "clock"],
+    "fixed-center": false,
+
+    "hyprland/window": {
+        "max-length": 200,
+        "seperate-outputs": true
+    },
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "on-click": "activate",
+        "format-icons":{
+            "1": "dev",
+            "2": "www",
+            "3": "sys",
+            "4": "doc",
+            "5": "vbox",
+            "6": "chat",
+            "7": "mus",
+            "8": "vid",
+            "9": "gfx",
+            "persistent": "persistent"
+        },
+        
+        "persistent_workspaces": {
+            "*": 9
+        }, 
+
+
+
+        "sort-by-number": true
+        
+    },
+
+    "custom/cmus": {
+        "interval": 1,
+        "exec": "dwm_cmus.sh",
+        "format": "{}"
+    },
+
+    "custom/audio": {
+        "interval": 1,
+        "exec": "dwm_alsa.sh",
+        "format": "| {} | "
+    },
+
+    "custom/memory": {
+        "interval": 1,
+        "exec": "memoryMonitor",
+        "format": "{}B"
+    },
+
+    "cpu": {
+        "interval": "2",
+        "format": "| CPU {usage}% @{avg_frequency} Ghz",
+        "tooltip": false
+    },
+
+    "clock": {
+        "interval": "1",
+        "tooltip": false,
+        "format": "{:%a %m-%d-%y %I:%M}"
+    },
+
+    "position": "top"
+}

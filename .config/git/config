@@ -1,0 +1,9 @@
+[user]
+	email = 160196766+ThatChemical5117@users.noreply.github.com
+	name = ThatChemical5117 
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[core]
+	editor = vim

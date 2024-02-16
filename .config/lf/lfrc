@@ -1,0 +1,193 @@
+set previewer ctpv
+set cleaner ctpvclear
+&ctpv -s $id
+&ctpvquit $id
+
+set sixel true
+
+# Basic Settings
+set ignorecase true
+set icons true
+set drawbox true
+
+#Custom Functions
+
+
+cmd follow_link %{{
+    lf -remote "send ${id} select '$(readlink $f)'"
+}}
+
+cmd paste-async &{{
+    set -- $(cat ~/.local/share/lf/files)
+    mode="$1"
+    shift
+    case "$mode" in
+        copy) cp -rn -- "$@" .;;
+        move) mv -n -- "$@" .;;
+    esac
+    rm ~/.local/share/lf/files
+    lf -remote "send clear"
+}}
+
+# y (select for copy) and P to paste soft-link
+# d (select for cut) and P to paste hard-link
+cmd link %{{
+    set -- $(cat ~/.local/share/lf/files)
+    mode="$1"
+    shift
+    if [ "$#" -lt 1 ]; then
+        lf -remote "send $id echo no files to link"
+        exit 0
+    fi
+    case "$mode" in
+        # symbolically copy mode is indicating a soft link
+        copy) ln -sr -t . -- "$@";;
+        # while a move mode is indicating a hard link
+        move) ln -t . -- "$@";;
+    esac
+    rm ~/.local/share/lf/files
+    lf -remote "send clear"
+}}
+
+cmd fzf_jump ${{
+    res="$(find . -maxdepth 5 | fzf --reverse --header='Jump to location')"
+    if [ -f "$res" ]; then
+      cmd="select"
+    elif [ -d "$res" ]; then
+      cmd="cd"
+    fi
+    lf -remote "send $id $cmd \"$res\""
+}}
+
+cmd open-with-gui &$@ "$fx" ## opens with a gui application outside lf client
+cmd open-with-cli $$@ "$fx" ## opens with a cli application inside lf client
+
+cmd open ${{
+    case "$f" in
+      *.pdf | *.xlsx | .docx | *.svg | *.jpg | *.png | *.odt ) printf "Unsupported" ;;
+      *.* ) "$EDITOR" "$f" ;;
+    esac
+}}
+
+# Archive Bindings
+cmd unarchive ${{
+  case "$f" in
+    *.zip) unzip "$f" ;;
+    *.tar.xz) tar -xf "$f" ;;
+    *.tar.gz) tar -xzvf "$f" ;;
+    *.tar.bz2) tar -zjvf "$f" ;;
+    *.tgz) tar zxvf "$f" ;;
+    *.tar) tar -xvf "$f" ;;
+    *) echo "Unsupported format" ;;
+  esac
+}}
+
+cmd edit-config ${{
+    $EDITOR ~/.config/lf/lfrc
+    lf -remote "send $id source ~/.config/lf/lfrc"
+}}
+
+cmd bulk-rename ${{
+    old="$(mktemp)"
+    new="$(mktemp)"
+    if [ -n "$fs" ]; then
+        fs="$(basename -a $fs)"
+    else
+        fs="$(ls)"
+    fi
+    printf '%s\n' "$fs" >"$old"
+    printf '%s\n' "$fs" >"$new"
+    $EDITOR "$new"
+    [ "$(wc -l < "$new")" -ne "$(wc -l < "$old")" ] && exit
+    paste "$old" "$new" | while IFS= read -r names; do
+        src="$(printf '%s' "$names" | cut -f1)"
+        dst="$(printf '%s' "$names" | cut -f2)"
+        if [ "$src" = "$dst" ] || [ -e "$dst" ]; then
+            continue
+        fi
+        mv -- "$src" "$dst"
+    done
+    rm -- "$old" "$new"
+    lf -remote "send $id unselect"
+}}
+
+cmd trash %trash-put $fx
+cmd restore $trash-restore 
+cmd empty-bin ${{
+    trash-list
+    read PATTERN
+    trash-rm $PATTERN
+}}
+
+cmd czip %zip -r "$f.zip" "$f"
+cmd ctar %tar cvf "$f.tar" "$f"
+cmd ctargz %tar cvzf "$f.tar.gz" "$f"
+cmd ctarbz2 %tar cjvf "$f.tar.bz2" "$f"
+
+#Encrypting
+cmd decrypt %gpg "$f"
+cmd encrypt %gpg -c "$f"
+
+# Bindings
+map O push :open-with-gui<space> ## input application
+map o push :open-with-cli<space> ## input application
+map <enter> open
+
+# map DD delete
+map DD trash
+map Tr restore
+map Te empty-bin
+
+#Remove Some Defults
+map n
+map m
+map "'"
+map '"'
+map d
+map e
+map f
+
+#Fuzzy search
+map f : fzf_jump
+
+#Archive Mappings
+map az czip
+map at ctar
+map ag ctargz
+map ab ctarbz2
+map au unarchive
+
+# Other bindings
+map C edit-config
+map n bulk-rename
+map p paste
+map P paste-async
+map x cut
+map y copy
+map mf push %touch<space>
+map md push %mkdir<space>
+map s link
+map r rename
+map R reload
+map U unselect
+map c clear
+map H top
+map L bottom
+
+# Encrypytion
+map ec encrypt
+map ed decrypt
+
+map . set hidden!
+
+# Movements
+map gh cd ~
+map gd cd ~/Downloads
+map gD cd ~/Documents
+map gp cd ~/Pictures
+map gc cd ~/.config
+map gP cd ~/Phone
+map gs cd ~/Software
+
+map gL follow_link
+
