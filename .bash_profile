@@ -1,6 +1,16 @@
-#
+#   ________          __  ________                        _       __
+#  /_  __/ /_  ____ _/ /_/ ____/ /_  ___  ____ ___  _____(_)___ _/ /
+#   / / / __ \/ __ `/ __/ /   / __ \/ _ \/ __ `__ \/ ___/ / __ `/ /
+#  / / / / / / /_/ / /_/ /___/ / / /  __/ / / / / / /__/ / /_/ / /
+# /_/ /_/ /_/\__,_/\__/\____/_/ /_/\___/_/ /_/ /_/\___/_/\__,_/_/  
+#      __               __                           _____ __
+#     / /_  ____ ______/ /_        ____  _________  / __(_) /__
+#    / __ \/ __ `/ ___/ __ \      / __ \/ ___/ __ \/ /_/ / / _ \
+# _ / /_/ / /_/ (__  ) / / /     / /_/ / /  / /_/ / __/ / /  __/
+#(_)_.___/\__,_/____/_/ /_/_____/ .___/_/   \____/_/ /_/_/\___/
+#                        /_____/_/
+
 # ~/.bash_profile
-#
 
 # fcitx exports
 export GTK_IM_MODULE='fcitx5'
@@ -12,7 +22,7 @@ export XMODIFIERS='@im=fcitx5'
 export PATH=$PATH:/home/michaelkik/.local/share/cargo/bin
 
 #EXPORTS for LF
-export EDITOR="vim"
+export EDITOR="nvim"
 export BROWSER="firefox"
 export NVM_DIR="$HOME/.nvm"
 export GTK_THEEME="Adwaita-dark"
@@ -25,8 +35,6 @@ export HISTFILE="$XDG_STATE_HOME"/bash/history
 export _JAVA_OPTIONS=-Djava.util.prefs.userRoot="$XDG_CONFIG_HOME"/java
 export NPM_CONFIG_USERCONFIG="$XDG_CONFIG_HOME"/npm/npmrc
 export XINITRC="$XDG_CONFIG_HOME"/X11/xinitrc
-export VIMINIT='let $MYVIMRC="$XDG_CONFIG_HOME/vim/vimrc" | source $MYVIMRC'
-export GVIMINIT='let $MYGVIMRC="$XDG_CONFIG_HOME/vim/gvimrc" | source $MYGVIMRC'
 export NO_AT_BRIDGE=1
 export CARGO_HOME="$XDG_DATA_HOME"/cargo
 export RUSTUP_HOME="$XDG_DATA_HOME"/rustup

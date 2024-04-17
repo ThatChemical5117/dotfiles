@@ -1,9 +1,13 @@
+#    __    __________  ______
+#   / /   / ____/ __ \/ ____/
+#  / /   / /_  / /_/ / /
+# / /___/ __/ / _, _/ /___
+#/_____/_/   /_/ |_|\____/
+
 set previewer ctpv
 set cleaner ctpvclear
 &ctpv -s $id
 &ctpvquit $id
-
-set sixel true
 
 # Basic Settings
 set ignorecase true
@@ -66,6 +70,7 @@ cmd open ${{
     case "$f" in
       *.pdf | *.xlsx | .docx | *.svg | *.jpg | *.png | *.odt ) printf "Unsupported" ;;
       *.* ) "$EDITOR" "$f" ;;
+      * ) "$EDITOR" "$f" ;;
     esac
 }}
 
@@ -133,8 +138,8 @@ map O push :open-with-gui<space> ## input application
 map o push :open-with-cli<space> ## input application
 map <enter> open
 
-# map DD delete
 map DD trash
+map Dd delete
 map Tr restore
 map Te empty-bin
 

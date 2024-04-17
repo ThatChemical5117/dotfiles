@@ -1,0 +1,25 @@
+# Exclude patterns
+- /boot/*
+- /dev/*
+- /proc/*
+- /sys/*
+- /tmp/*
+- /run*
+- /mnt/*
+- /media/*
+- /lost+found
+- /data/*
+- /home/michaelkik/.dotfiles/*
+- /home/michaelkik/.cache/*
+- /home/michaelkik/.keychain/*
+- /home/michaelkik/.mozilla/*
+- /home/michaelkik/.ssh/*
+- /home/michaelkik/.config/*
+- /home/michaelkik/.java/*
+- /home/michaelkik/.local/*
+- /home/michaelkik/Dev/AURPKG/*
+- /home/michaelkik/.minecraft/*
+- /home/michaelkik/.npm/*
+- /home/michaelkik/.pki/*
+- /home/michaelkik/.vscode-oss/*
+- /home/michaelkik/Software/DesktopEnvironment/*
