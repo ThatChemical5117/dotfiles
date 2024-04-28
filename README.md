@@ -1,15 +1,15 @@
-# Dotfiles directory
+# Dot files directory
 
 ### Dependencies
 
 - git: pacman -S git
 - GNU stow: pacman -S stow
-- vim: pacman -S vim
+- neovim: pacman -S neovim
 
 
 ### Usage
 
-clone directory in home folder
+Clone directory in home folder
 
 ``` git clone https://github.com/MIchael-Kik/dotfiles.git ```
 

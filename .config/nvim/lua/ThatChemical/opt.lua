@@ -23,4 +23,10 @@ vim.opt.smartindent = true
 
 vim.opt.splitbelow = true
 
-vim.opt.inccommand = 'split'
+vim.opt.inccommand = 'nosplit'
+
+vim.opt.conceallevel = 2
+
+vim.opt.spelllang = "en_us"
+vim.opt.spell = true
+

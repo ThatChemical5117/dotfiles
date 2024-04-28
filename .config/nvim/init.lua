@@ -29,6 +29,3 @@ require('ThatChemical')
 -- '[S]earch [/] in Open Files'
 
 -- '[S]earch [N]eovim files' 
-
-
-

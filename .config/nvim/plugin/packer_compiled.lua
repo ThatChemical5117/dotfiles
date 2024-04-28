@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/michaelkik/.local/state/nvim/packer_hererocks/2.1.1702233742/share/lua/5.1/?.lua;/home/michaelkik/.local/state/nvim/packer_hererocks/2.1.1702233742/share/lua/5.1/?/init.lua;/home/michaelkik/.local/state/nvim/packer_hererocks/2.1.1702233742/lib/luarocks/rocks-5.1/?.lua;/home/michaelkik/.local/state/nvim/packer_hererocks/2.1.1702233742/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/michaelkik/.local/state/nvim/packer_hererocks/2.1.1702233742/lib/lua/5.1/?.so"
+local package_path_str = "/home/michaelkik/.local/state/nvim/packer_hererocks/2.1.1713773202/share/lua/5.1/?.lua;/home/michaelkik/.local/state/nvim/packer_hererocks/2.1.1713773202/share/lua/5.1/?/init.lua;/home/michaelkik/.local/state/nvim/packer_hererocks/2.1.1713773202/lib/luarocks/rocks-5.1/?.lua;/home/michaelkik/.local/state/nvim/packer_hererocks/2.1.1713773202/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/michaelkik/.local/state/nvim/packer_hererocks/2.1.1713773202/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -114,11 +114,6 @@ _G.packer_plugins = {
     path = "/home/michaelkik/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/ThePrimeagen/harpoon"
   },
-  ["lf.vim"] = {
-    loaded = true,
-    path = "/home/michaelkik/.local/share/nvim/site/pack/packer/start/lf.vim",
-    url = "https://github.com/ptzz/lf.vim"
-  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/home/michaelkik/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -133,6 +128,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/michaelkik/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  neogit = {
+    loaded = true,
+    path = "/home/michaelkik/.local/share/nvim/site/pack/packer/start/neogit",
+    url = "https://github.com/NeogitOrg/neogit"
   },
   ["neovim-ayu"] = {
     loaded = true,
@@ -154,6 +154,11 @@ _G.packer_plugins = {
     path = "/home/michaelkik/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["obsidian.nvim"] = {
+    loaded = true,
+    path = "/home/michaelkik/.local/share/nvim/site/pack/packer/start/obsidian.nvim",
+    url = "https://github.com/epwalsh/obsidian.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/michaelkik/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -174,20 +179,20 @@ _G.packer_plugins = {
     path = "/home/michaelkik/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
-  ["vim-be-good"] = {
-    loaded = true,
-    path = "/home/michaelkik/.local/share/nvim/site/pack/packer/start/vim-be-good",
-    url = "https://github.com/ThePrimeagen/vim-be-good"
-  },
-  ["vim-floaterm"] = {
-    loaded = true,
-    path = "/home/michaelkik/.local/share/nvim/site/pack/packer/start/vim-floaterm",
-    url = "https://github.com/voldikss/vim-floaterm"
-  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/michaelkik/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-markdown"] = {
+    loaded = true,
+    path = "/home/michaelkik/.local/share/nvim/site/pack/packer/start/vim-markdown",
+    url = "https://github.com/preservim/vim-markdown"
+  },
+  ["vim-pandoc-syntax"] = {
+    loaded = true,
+    path = "/home/michaelkik/.local/share/nvim/site/pack/packer/start/vim-pandoc-syntax",
+    url = "https://github.com/vim-pandoc/vim-pandoc-syntax"
   }
 }
 

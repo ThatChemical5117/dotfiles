@@ -16,7 +16,6 @@ set drawbox true
 
 #Custom Functions
 
-
 cmd follow_link %{{
     lf -remote "send ${id} select '$(readlink $f)'"
 }}
@@ -63,8 +62,8 @@ cmd fzf_jump ${{
     lf -remote "send $id $cmd \"$res\""
 }}
 
-cmd open-with-gui &$@ "$fx" ## opens with a gui application outside lf client
-cmd open-with-cli $$@ "$fx" ## opens with a cli application inside lf client
+cmd open-with-gui &$@ "$fx" ## opens with a GUI application outside lf client
+cmd open-with-cli $$@ "$fx" ## opens with a CLI application inside lf client
 
 cmd open ${{
     case "$f" in
@@ -116,7 +115,7 @@ cmd bulk-rename ${{
     lf -remote "send $id unselect"
 }}
 
-cmd trash %trash-put $fx
+cmd trash %trash-put "$f"
 cmd restore $trash-restore 
 cmd empty-bin ${{
     trash-list
@@ -143,7 +142,7 @@ map Dd delete
 map Tr restore
 map Te empty-bin
 
-#Remove Some Defults
+#Remove Some Defaults
 map n
 map m
 map "'"
@@ -179,7 +178,7 @@ map c clear
 map H top
 map L bottom
 
-# Encrypytion
+# Encryption
 map ec encrypt
 map ed decrypt
 
