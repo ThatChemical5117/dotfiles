@@ -1,8 +1,9 @@
 vim.g.mapleader = " "
 
-vim.keymap.set('n', '<Enter>', '<cmd>nohlsearch<CR>', {desc = "Clear Search"})
 vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>:bd!<CR>', {desc = "Exit Terminal"})
-vim.keymap.set("n", "<leader>f", vim.cmd.Ex, {desc = "Open Netrw [F]ile manager"})
+vim.keymap.set('n', '<leader>dd', ':Lexplore %:p:h<CR>', { desc = "Open Netrw at file"})
+vim.keymap.set('n', '<leader>da', ':Lexplore<CR>', { desc = "Open Netrw"})
+vim.keymap.set('n', '<leader>dw', vim.cmd.Ex, {desc = "Open Netrw as full window"})
 
 vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "<C-u>", "<C-u>zz")

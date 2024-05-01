@@ -13,7 +13,7 @@ vim.opt.errorbells = false
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.wrap = false
-vim.opt.hlsearch = true
+vim.opt.hlsearch = false
 vim.opt.termguicolors = true
 
 vim.opt.guicursor = ""
@@ -29,4 +29,11 @@ vim.opt.conceallevel = 2
 
 vim.opt.spelllang = "en_us"
 vim.opt.spell = true
+
+
+-- Netrw config options
+vim.g.netrw_keepdir = 0
+vim.g.netrw_winsize = 30
+vim.g.netrw_localcopydircmd = 'cp -r'
+
 

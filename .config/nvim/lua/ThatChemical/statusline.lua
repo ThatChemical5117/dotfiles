@@ -1,13 +1,16 @@
-vim.cmd([[
-	hi LspDiagnosticsSignError guifg=#ff3333 guibg=#00010a
-	hi LspDiagnosticsSignWarning guifg=#ff8f40 guibg=#00010a
-	hi StatuslineAccent guifg=#0f1633 guibg=#36a3d9
-	hi StatuslineInsertAccent guifg=#0f1633 guibg=#b8cc52
-	hi StatuslineVisualAccent guifg=#0f1633 guibg=#ffee99
-	hi StatuslineReplaceAccent guifg=#0f1633 guibg=#f07178
-	hi StatuslineCmdLineAccent guifg=#0f1633 guibg=#ae81ff
-	hi StatuslineTerminalAccent guifg=#0f1633 guibg=#ffffff
-]])
+
+-- Highlighting colors for LSP diagnostics on the status line
+vim.api.nvim_set_hl(0, "LspDiagnosticsSignError", {fg = "#ff3333", bg = "#00010a"})
+vim.api.nvim_set_hl(0, "LspDiagnosticsSignWarning", {fg = "#ff8f40", bg = "#00010a"})
+vim.api.nvim_set_hl(0, "LspDiagnosticsSignInformation", {fg ="#39bae6", bg = "#00010a"})
+vim.api.nvim_set_hl(0, "LspDiagnosticsSignHint", {fg = "#95e6cb", bg="#00010a"})
+
+vim.api.nvim_set_hl(0, "StatuslineAccent", {fg ="#0f1633", bg = "#36a3d9"})
+vim.api.nvim_set_hl(0, "StatuslineInsertAccent", {fg = "#0f1633", bg = "#b8cc52"})
+vim.api.nvim_set_hl(0, "StatuslineVisualAccent", {fg= "#0f1633", bg= "#ffee99"})
+vim.api.nvim_set_hl(0, "StatuslineReplaceAccent", {fg= "#0f1633", bg= "#f07178"})
+vim.api.nvim_set_hl(0, "StatuslineCmdLineAccent", {fg= "#0f1633", bg= "#ae81ff"})
+vim.api.nvim_set_hl(0, "StatuslineTerminalAccent", {fg= "#0f1633", bg= "#ffffff"})
 
 local modes = {
   ["n"] = "NORMAL",
