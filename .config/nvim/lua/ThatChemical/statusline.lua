@@ -1,9 +1,8 @@
-
 -- Highlighting colors for LSP diagnostics on the status line
-vim.api.nvim_set_hl(0, "LspDiagnosticsSignError", {fg = "#ff3333", bg = "#00010a"})
-vim.api.nvim_set_hl(0, "LspDiagnosticsSignWarning", {fg = "#ff8f40", bg = "#00010a"})
-vim.api.nvim_set_hl(0, "LspDiagnosticsSignInformation", {fg ="#39bae6", bg = "#00010a"})
-vim.api.nvim_set_hl(0, "LspDiagnosticsSignHint", {fg = "#95e6cb", bg="#00010a"})
+vim.api.nvim_set_hl(0, "LspDiagnosticsSignError", {fg = "#f38ba8", bg = "#181825"})
+vim.api.nvim_set_hl(0, "LspDiagnosticsSignWarning", {fg = "#f9e2af", bg = "#181825"})
+vim.api.nvim_set_hl(0, "LspDiagnosticsSignInformation", {fg ="#89dceb", bg = "#181825"})
+vim.api.nvim_set_hl(0, "LspDiagnosticsSignHint", {fg = "#94e2d5", bg="#181825"})
 
 vim.api.nvim_set_hl(0, "StatuslineAccent", {fg ="#0f1633", bg = "#36a3d9"})
 vim.api.nvim_set_hl(0, "StatuslineInsertAccent", {fg = "#0f1633", bg = "#b8cc52"})

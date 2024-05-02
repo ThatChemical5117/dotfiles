@@ -2,9 +2,9 @@
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth=4
-vim.opt.expandtab = false 
+vim.opt.expandtab = false
 vim.opt.smartcase = true
-vim.opt.swapfile = false 
+vim.opt.swapfile = false
 vim.opt.backup = false
 vim.opt.undofile = true
 
@@ -35,5 +35,3 @@ vim.opt.spell = true
 vim.g.netrw_keepdir = 0
 vim.g.netrw_winsize = 30
 vim.g.netrw_localcopydircmd = 'cp -r'
-
-

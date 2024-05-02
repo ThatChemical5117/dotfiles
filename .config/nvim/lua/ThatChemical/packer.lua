@@ -21,18 +21,20 @@ return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
-	-- Vim-fugitive
-	use ('tpope/vim-fugitive')	
-
 	-- smart splits
 	use('mrjones2014/smart-splits.nvim')
 
 	-- Color scheme
-	use 'Shatur/neovim-ayu'
-	
+	use {
+		'catppuccin/nvim',
+		as = "catppuccin"
+	}
+
+	use 'akinsho/toggleterm.nvim'
+
 	-- special markdown highlighting for Obsidian
 	use 'preservim/vim-markdown'
-	use 'vim-pandoc/vim-pandoc-syntax' 
+	use 'vim-pandoc/vim-pandoc-syntax'
 
 	-- Syntax highlighting
 	use ( 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -55,24 +57,24 @@ return require('packer').startup(function(use)
 	})
 
 	-- telescope for quick finding
-	use { 
+	use {
 		'nvim-telescope/telescope.nvim',
-		requires = { { 
-			'nvim-lua/plenary.nvim', 
-			'nvim-telescope/telescope-ui-select.nvim', 
-			'nvim-tree/nvim-web-devicons' 
-		} }
+		requires = {
+			{ 'nvim-lua/plenary.nvim'},
+			{ 'nvim-telescope/telescope-ui-select.nvim'},
+			{ 'nvim-tree/nvim-web-devicons' },
+		}
 	}
 
 	use {
 		'NeogitOrg/neogit',
-		requires = { {
-			'nvim-lua/plenary.nvim',
-			'nvim-telescope/telescope.nvim',
-			'sindrets/diffview.nvim',
-		} }
+		requires = {
+			{ 'nvim-lua/plenary.nvim' },
+			{ 'nvim-telescope/telescope.nvim'},
+			{ 'sindrets/diffview.nvim'},
+		}
 	}
-
+	--
 	-- LSP for languages, managed by mason
 	use {
 		'VonHeikemen/lsp-zero.nvim',
