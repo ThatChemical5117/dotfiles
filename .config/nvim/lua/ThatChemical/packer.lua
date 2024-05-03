@@ -30,12 +30,23 @@ return require('packer').startup(function(use)
 		as = "catppuccin"
 	}
 
+	-- Smother terminal interface
 	use 'akinsho/toggleterm.nvim'
+
+	-- File Explorer
+	use {
+		"nvim-neo-tree/neo-tree.nvim",
+		branch = "v3.x",
+		requires = {
+			"nvim-lua/plenary.nvim",
+			"nvim-tree/nvim-web-devicons",
+			"MunifTanjim/nui.nvim"
+		}
+	}
 
 	-- special markdown highlighting for Obsidian
 	use 'preservim/vim-markdown'
 	use 'vim-pandoc/vim-pandoc-syntax'
-
 	-- Syntax highlighting
 	use ( 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 

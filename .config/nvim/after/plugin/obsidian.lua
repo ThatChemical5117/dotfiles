@@ -12,8 +12,8 @@ require("obsidian").setup({
 	},
 
 	new_notes_location = "notes_subdir",
-	disable_frontmatter = true, 
-	
+	disable_frontmatter = true,
+
 	note_id_func = function(title)
 		return title
 	end,
@@ -35,4 +35,13 @@ require("obsidian").setup({
 		enable = true,
 	},
 })
+
+-- Obsidian Key maps
+vim.keymap.set('n', '<leader>oo', ":ObsidianOpen <CR>", {desc = "[O]pen [O]bsidian"})
+vim.keymap.set('n', '<leader>os', ":ObsidianQuickSwitch <CR>", {desc = "[O]bsidian Quick [S]witch"})
+vim.keymap.set('n', '<leader>on', ":ObsidianNew Zettlekasten/", {desc = "Create new [O]bsidian [N]ote in Zettlekasten subdir"})
+vim.keymap.set('n', '<leader>ot', ":ObsidianTemplate <CR>", {desc = "Use [O]bsidian [T]emplate"})
+vim.keymap.set('n', '<leader>os', ":ObsidianSearch <CR>", {desc = "Bring up [O]bsidian [S]earch menu"})
+vim.keymap.set('n', '<leader>of', ":ObsidianFollowLink <CR>", {desc = "Follow link"})
+
 

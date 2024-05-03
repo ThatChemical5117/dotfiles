@@ -1,9 +1,12 @@
--- Highlighting colors for LSP diagnostics on the status line
+---@diagnostic disable: need-check-nil
+
+-- Highlights for LSP signs in status bar
 vim.api.nvim_set_hl(0, "LspDiagnosticsSignError", {fg = "#f38ba8", bg = "#181825"})
 vim.api.nvim_set_hl(0, "LspDiagnosticsSignWarning", {fg = "#f9e2af", bg = "#181825"})
 vim.api.nvim_set_hl(0, "LspDiagnosticsSignInformation", {fg ="#89dceb", bg = "#181825"})
 vim.api.nvim_set_hl(0, "LspDiagnosticsSignHint", {fg = "#94e2d5", bg="#181825"})
 
+-- Highlights for the Status line modes
 vim.api.nvim_set_hl(0, "StatuslineAccent", {fg ="#0f1633", bg = "#36a3d9"})
 vim.api.nvim_set_hl(0, "StatuslineInsertAccent", {fg = "#0f1633", bg = "#b8cc52"})
 vim.api.nvim_set_hl(0, "StatuslineVisualAccent", {fg= "#0f1633", bg= "#ffee99"})
@@ -11,6 +14,7 @@ vim.api.nvim_set_hl(0, "StatuslineReplaceAccent", {fg= "#0f1633", bg= "#f07178"}
 vim.api.nvim_set_hl(0, "StatuslineCmdLineAccent", {fg= "#0f1633", bg= "#ae81ff"})
 vim.api.nvim_set_hl(0, "StatuslineTerminalAccent", {fg= "#0f1633", bg= "#ffffff"})
 
+-- mode table to display
 local modes = {
   ["n"] = "NORMAL",
   ["no"] = "NORMAL",
@@ -34,11 +38,13 @@ local modes = {
   ["t"] = "TERMINAL",
 }
 
+-- gets current mode
 local function mode()
   local current_mode = vim.api.nvim_get_mode().mode
   return string.format(" %s ", modes[current_mode]):upper()
 end
 
+-- changed mode color based on current mode
 local function update_mode_colors()
   local current_mode = vim.api.nvim_get_mode().mode
   local mode_color = "%#StatusLineAccent#"
@@ -59,6 +65,7 @@ local function update_mode_colors()
 end
 
 
+-- returns the name of the branch in git
 local function GitBranch()
 	local command = io.popen("git rev-parse --abbrev-ref HEAD 2>/dev/null | tr -d '\n'")
 	local commandResault = command:read("*a")
@@ -68,6 +75,7 @@ local function GitBranch()
 	return commandResault
 end
 
+-- Takes output of GitBranch and decides what to render in statusline
 local function StatuslineGit()
 
 	local branchName = GitBranch()
@@ -76,12 +84,13 @@ local function StatuslineGit()
 	if branchName:len() > 0 then
 		statuslineoutput = string.format("%s ", branchName)
 	else
-		statuslineoutput = ''  
+		statuslineoutput = ''
 	end
 
 	return statuslineoutput
 end
 
+-- returns the file path of the current buffer 
 local function filepath()
   local fpath = vim.fn.fnamemodify(vim.fn.expand "%", ":~:.:h")
   if fpath == "" or fpath == "." then
@@ -91,6 +100,7 @@ local function filepath()
   return string.format(" %%<%s/", fpath)
 end
 
+-- returns the file name of the current buffer
 local function filename()
   local fname = vim.fn.expand "%:t"
   if fname == "" then
@@ -99,6 +109,7 @@ local function filename()
   return fname .. " "
 end
 
+-- gets the line info for the current buffer
 local function lineinfo()
   if vim.bo.filetype == "alpha" then
     return ""
@@ -106,6 +117,8 @@ local function lineinfo()
   return " %p%% %l:%c "
 end
 
+-- uses the lsp to get diagnostic signs
+-- and display them in the status line
 local function lsp()
   local count = {}
   local levels = {
@@ -140,15 +153,18 @@ local function lsp()
   return errors .. warnings .. hints .. info .. "%#LineNr#%#CursorColumn#"
 end
 
+-- status line
 Statusline = {}
 
+-- Active status line
+---@diagnostic disable-next-line: duplicate-set-field
 Statusline.active = function()
   return table.concat {
 	update_mode_colors(),
 	mode(),
 	"%#LineNr#",
 	"%#CursorColumn#",
-	filepath(),	
+	filepath(),
 	filename(),
 	"%m",
     lsp(),
@@ -160,10 +176,11 @@ Statusline.active = function()
 	" %{&fileencoding?&fileencoding:&encoding}",
 	"[%{&fileformat}]",
 	lineinfo(),
-  }
-	
+}
 end
 
+-- status line for out of focus buffer
+---@diagnostic disable-next-line: duplicate-set-field
 function Statusline.inactive()
 	return table.concat{
 		"%#LineNr#",
@@ -178,6 +195,7 @@ function Statusline.inactive()
 	}
 end
 
+---@diagnostic disable-next-line: duplicate-set-field
 function Statusline.short()
   return "%f"
 end

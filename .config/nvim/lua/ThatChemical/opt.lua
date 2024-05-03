@@ -1,4 +1,5 @@
--- My options for config
+-- Base Neovim configurations
+-- Use for vinilla experiance
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
 vim.opt.shiftwidth=4
@@ -29,9 +30,3 @@ vim.opt.conceallevel = 2
 
 vim.opt.spelllang = "en_us"
 vim.opt.spell = true
-
-
--- Netrw config options
-vim.g.netrw_keepdir = 0
-vim.g.netrw_winsize = 30
-vim.g.netrw_localcopydircmd = 'cp -r'
