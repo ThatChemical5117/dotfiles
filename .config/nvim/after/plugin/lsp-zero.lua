@@ -18,7 +18,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-  ensure_installed = {'clangd' },
+  ensure_installed = {'clangd'},
   handlers = {
     function(server_name)
       require('lspconfig')[server_name].setup({})
@@ -59,3 +59,25 @@ cmp.setup({
     end,
   },
 })
+
+
+-- DAP setup
+local dap = require("dap")
+local dapui = require("dapui")
+
+dapui.setup()
+
+dap.listeners.after.event_initialized["dapui_config"] = function()
+	dapui.open()
+end
+
+dap.listeners.before.event_terminated["dapui_config"] = function()
+	dapui.close()
+end
+
+dap.listeners.before.event_exited["dapui_config"] = function()
+	dapui.close()
+end
+
+vim.keymap.set("n", "<leader>db", "<cmd> DapToggleBreakpoint<CR>", { desc = "Toggle breakpoint"})
+vim.keymap.set("n", "<leader>dr", "<cmd> DapContinue <CR>", { desc = "Start or Continue debugger"})

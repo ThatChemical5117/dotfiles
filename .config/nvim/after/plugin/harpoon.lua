@@ -4,10 +4,10 @@ local harpoon = require("harpoon")
 harpoon:setup({})
 -- REQUIRED
 
-vim.keymap.set("n", "<leader>a", function() harpoon:list():add() end, { desc = "[A]dd to harpoon"})
-vim.keymap.set("n", "<leader>r", function() harpoon:list():remove() end, { desc = "[R]emove all "})
+vim.keymap.set("n", "<leader>ha", function() harpoon:list():add() end, { desc = "[A]dd to harpoon"})
+vim.keymap.set("n", "<leader>hr", function() harpoon:list():remove() end, { desc = "[R]emove all "})
 
-vim.keymap.set("n", "<leader>h", function() harpoon.ui:toggle_quick_menu(harpoon:list()) end, { desc = "Open [H]arpoon quick menu"})
+vim.keymap.set("n", "<leader>hh", function() harpoon.ui:toggle_quick_menu(harpoon:list()) end, { desc = "Open [H]arpoon quick menu"})
 
 
 vim.keymap.set("n", "<C-h>", function() harpoon:list():select(1) end)

@@ -24,7 +24,6 @@ export PATH=$PATH:/home/michaelkik/.local/share/cargo/bin
 #EXPORTS for LF
 export EDITOR="nvim"
 export BROWSER="firefox"
-export NVM_DIR="$HOME/.nvm"
 export GTK_THEEME="Adwaita-dark"
 
 # $HOME config relocation

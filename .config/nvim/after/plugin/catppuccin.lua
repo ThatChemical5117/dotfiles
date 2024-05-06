@@ -1,5 +1,10 @@
 require("catppuccin").setup({
-	flavor = "mocha",
+	flavor = "auto",
+	background = {
+		light = "macchiato",
+		dark = "mocha"
+	},
+	term_colors = false;
 	transparent_background = true,
 	default_integrations = true,
 	integrations = {
@@ -13,7 +18,6 @@ require("catppuccin").setup({
 			enabled = true,
 		},
 	},
+})
 
-}) 
-
-vim.cmd.colorscheme "catppuccin-mocha"
+vim.cmd.colorscheme "catppuccin"

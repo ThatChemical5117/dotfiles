@@ -21,10 +21,13 @@ return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
+	-- git integration
+	use "lewis6991/gitsigns.nvim"
+
 	-- smart splits
 	use('mrjones2014/smart-splits.nvim')
 
-	-- Color scheme
+	-- Catppuccin color scheme
 	use {
 		'catppuccin/nvim',
 		as = "catppuccin"
@@ -44,10 +47,12 @@ return require('packer').startup(function(use)
 		}
 	}
 
+	-- Syntax highlighting
 	-- special markdown highlighting for Obsidian
 	use 'preservim/vim-markdown'
 	use 'vim-pandoc/vim-pandoc-syntax'
-	-- Syntax highlighting
+
+	-- Standard highlighting
 	use ( 'nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
 	-- Harpoon
@@ -77,6 +82,7 @@ return require('packer').startup(function(use)
 		}
 	}
 
+	-- Git integration
 	use {
 		'NeogitOrg/neogit',
 		requires = {
@@ -85,8 +91,8 @@ return require('packer').startup(function(use)
 			{ 'sindrets/diffview.nvim'},
 		}
 	}
-	--
-	-- LSP for languages, managed by mason
+
+	-- LSP for languages, managed by mason, and auto complete with cmp
 	use {
 		'VonHeikemen/lsp-zero.nvim',
 		branch = 'v3.x',
@@ -103,6 +109,25 @@ return require('packer').startup(function(use)
 			{ 'hrsh7th/cmp-nvim-lua' },
 			{ 'L3MON4D3/LuaSnip'},
 			{ 'rafamadriz/friendly-snippets' },
+		}
+	}
+
+	-- DAP for debugging
+	use "mfussenegger/nvim-dap"
+
+	use {
+		"jay-babu/mason-nvim-dap.nvim",
+		requires = {
+			{ 'williamboman/mason.nvim' },
+			{ 'mfussenegger/nvim-dap' }
+		}
+	}
+
+	use {
+		"rcarriga/nvim-dap-ui",
+		requires = {
+			{ "mfussenegger/nvim-dap" },
+			{ "nvim-neotest/nvim-nio" }
 		}
 	}
 

@@ -1,13 +1,13 @@
 require'nvim-treesitter.configs'.setup {
   -- A list of parser names, or "all" (the five listed parsers should always be installed)
-  ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "bash", "cpp", "diff", "git_config", "git_rebase", "gpg", "hyprlang", "java", "luadoc", "make", "latex"},
+  ensure_installed = { "c", "lua", "vim", "vimdoc",  "bash", "cpp", "diff", "git_rebase", "hyprlang", "java", "luadoc", "make" },
 
   -- Install parsers synchronously (only applied to `ensure_installed`)
   sync_install = true,
 
   -- Automatically install missing parsers when entering buffer
   -- Recommendation: set to false if you don't have `tree-sitter` CLI installed locally
-  auto_install = false,
+  auto_install = true,
 
   ingore_install = {"markdown", "markdown_inline"},
 
@@ -18,6 +18,7 @@ require'nvim-treesitter.configs'.setup {
 
   highlight = {
     enable = true,
+	additional_vim_regex_highlighting = false,
 	disable = {"markdown", "markdown_inline"},
 
     -- NOTE: these are the names of the parsers and not the filetype. (for example if you want to

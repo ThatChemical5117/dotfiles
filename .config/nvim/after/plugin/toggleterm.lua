@@ -1,5 +1,5 @@
 require("toggleterm").setup({
-	direction = "float",
+	direction = "horizontal",
 	size = 20,
 	open_mapping = [[<c-\>]],
 	hide_numbers = true,

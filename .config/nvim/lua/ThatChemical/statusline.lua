@@ -79,12 +79,13 @@ end
 local function StatuslineGit()
 
 	local branchName = GitBranch()
+	local noBranchName = ''
 	local statuslineoutput
 
 	if branchName:len() > 0 then
 		statuslineoutput = string.format("%s ", branchName)
 	else
-		statuslineoutput = ''
+		statuslineoutput = noBranchName
 	end
 
 	return statuslineoutput
@@ -160,6 +161,7 @@ Statusline = {}
 ---@diagnostic disable-next-line: duplicate-set-field
 Statusline.active = function()
   return table.concat {
+	"%#LineNr#",
 	update_mode_colors(),
 	mode(),
 	"%#LineNr#",
@@ -200,6 +202,7 @@ function Statusline.short()
   return "%f"
 end
 
+-- creates the auto command for creatig the status bar
 vim.api.nvim_exec([[
   augroup Statusline
   au!
