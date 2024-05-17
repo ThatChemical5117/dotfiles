@@ -24,6 +24,8 @@ return require('packer').startup(function(use)
 	-- git integration
 	use "lewis6991/gitsigns.nvim"
 
+	use "jbyuki/nabla.nvim"
+
 	-- smart splits
 	use('mrjones2014/smart-splits.nvim')
 

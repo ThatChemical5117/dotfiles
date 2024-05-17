@@ -18,3 +18,6 @@ then move to and use GNU stow to create sym-links
 ```mv ./dotfiles```
 ```stow .``` 
 
+### Wayland-scripts
+
+These scripts can are used in waybar and hyprland to control certian programs or parts of the system. Dependencies are listed in each file
