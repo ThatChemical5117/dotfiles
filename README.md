@@ -21,3 +21,5 @@ then move to and use GNU stow to create sym-links
 ### Wayland-scripts
 
 These scripts can are used in waybar and hyprland to control certian programs or parts of the system. Dependencies are listed in each file
+
+Place the folder or files into your path to use them. otherwise modify the rest of the dotfiles to not use them.
