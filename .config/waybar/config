@@ -12,8 +12,7 @@
 
     "hyprland/workspaces": {
         "format": "{icon}",
-        "on-click": "activate",
-        "format-icons":{
+        "on-click": "activate", "format-icons":{
             "1": "dev",
             "2": "www",
             "3": "sys",
@@ -44,6 +43,7 @@
 
     "custom/audio": {
         "interval": 1,
+		"on-click": "pavucontrol",
         "exec": "dwm_alsa.sh",
         "format": "| {} | "
     },
@@ -55,7 +55,7 @@
     },
 
     "cpu": {
-        "interval": "2",
+        "interval": 1,
         "format": "| CPU {usage}% @{avg_frequency} Ghz",
         "tooltip": false
     },
