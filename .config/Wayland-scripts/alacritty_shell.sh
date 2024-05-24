@@ -1,10 +1,11 @@
 #!/bin/bash
 # Requires Alacritty to be installed
 # Runs a sub-instance of Alacritty if one exists
-# Can pass in a starting program if needed
+# This is to save on memory as Alacritty can share one process instead of spawning a new one each time
+
 # See hyprland.conf for an example
 
-INSTANCE=$(hyprctl clients | grep "class: Alacritty" | head -1 | awk '{print $2}')
+INSTANCE=$(hyprctl clients | grep "class: Alacritty" | head -1 )
 
 
 if [ -z "$INSTANCE" ]

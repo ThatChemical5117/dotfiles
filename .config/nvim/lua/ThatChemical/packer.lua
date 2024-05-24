@@ -14,9 +14,7 @@ local ensure_packer = function()
 end
 
 -- runs the function returns true if packer was bootstrapped
-local packer_bootstrap = ensure_packer()
-
--- Packer packages configuration
+local packer_bootstrap = ensure_packer() -- Packer packages configuration
 return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
