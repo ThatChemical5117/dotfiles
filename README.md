@@ -20,6 +20,7 @@ then move to and use GNU stow to create sym-links
 
 ### Wayland-scripts
 
-These scripts can are used in waybar and hyprland to control certian programs or parts of the system. Dependencies are listed in each file
+These scripts can are used in waybar and hyprland to control certian programs or parts of the system. Some information about them is included in each script
 
-Place the folder or files into your path to use them. otherwise modify the rest of the dotfiles to not use them.
+To use them, sym-link them into your path, like /etc/local/bin or copy the folder to /opt and sym-link from there. The file owner and permissions cannot be root.
+If you don't want to use these scripts, look in hyprland.conf to see alternative commands underneath. For waybar use it's built in modules instead.

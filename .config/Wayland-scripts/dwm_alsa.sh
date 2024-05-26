@@ -1,24 +1,35 @@
-#!/bin/sh
+#!/bin/bash
 
-# Modified from a previous dwm script, used to display the audio volume in waybar.
-# Detects the current audio output and display that
-# Uses a nerd font for icons
+# Legacy name, changed to work with wpctl, based on an example from waybar
 
-STATUS=$(wpctl status | grep "\[vol" | grep "\*  " | awk '{print $NF }' | sed 's/\]//')
-VOLID=$(wpctl status | grep "\[vol" | grep "\*  " | awk '{print $3 }' | sed 's/\.//')
-VOL=$(wpctl get-volume $VOLID | awk '{ print $2 }' | sed 's/[^0-9]*//g' | sed 's/0*//')
+set -e
 
-if [ "$STATUS" = "MUTED" ]; then
-    printf "󰖁"
-else
+WP_OUTPUT=$(wpctl get-volume @DEFAULT_AUDIO_SINK@)
 
-    if [ -z "$VOL" ]; then
-        printf "󰖁"
-    elif [ "$VOL" -gt 0 ] && [ "$VOL" -le 33 ]; then
-        printf " %s%%" "$VOL"
-    elif [ "$VOL" -gt 33 ] && [ "$VOL" -le 66 ]; then
-        printf " %s%%" "$VOL"
-    else
-        printf "󰕾 %s%%" "$VOL"
-    fi
+if [[ $WP_OUTPUT =~ ^Volume:[[:blank:]]([0-9]+)\.([0-9]{2})([[:blank:]].MUTED.)?$ ]]; then
+	ICON=(
+		"󰕾"
+		""
+		""
+		"󰖁"
+	)
+
+	if [[ -n ${BASH_REMATCH[3]} ]]; then
+		printf "%s" ${ICON[3]}
+	else
+		VOLUME=$((10#${BASH_REMATCH[1]}${BASH_REMATCH[2]}))
+		
+
+		if [[ $VOLUME -gt 66 ]]; then
+			printf "%s " ${ICON[0]}
+		elif [[ $VOLUME -gt 33 ]]; then
+			printf "%s " ${ICON[1]}
+		elif [[ $VOLUME -gt 0 ]]; then
+			printf "%s " ${ICON[2]}
+		else
+			printf "%s " ${ICON[3]}
+		fi
+
+		printf "$VOLUME%%"
+	fi
 fi

@@ -4,7 +4,7 @@
 # Joe Standring <git@joestandring.com>
 # GNU GPLv3
 
-# Modifiyed to work with slstatus, and waybar
+# Modified to work with waybar
 
 # Dependencies: cmus
 
