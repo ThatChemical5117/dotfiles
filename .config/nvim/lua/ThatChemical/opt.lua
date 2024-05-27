@@ -34,3 +34,10 @@ vim.opt.termguicolors = true
 -- Spelling
 vim.opt.spelllang = "en_us"
 vim.opt.spell = true
+
+vim.filetype.add({
+	pattern = {
+		[".*/hyprland%.conf"] = "hyprlang",
+		[".*/hypr/conf/*%.conf"] = "hyprlang"
+	},
+})

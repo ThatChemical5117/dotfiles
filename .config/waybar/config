@@ -37,14 +37,14 @@
 
     "custom/cmus": {
         "interval": 1,
-        "exec": "dwm_cmus.sh",
+        "exec": "~/.config/waybar/scripts/cmus-display.sh",
         "format": "{}"
     },
 
     "custom/audio": {
-        "interval": 1,
+		"max-length": 10,
 		"on-click": "pavucontrol",
-        "exec": "dwm_alsa.sh",
+        "exec": "~/.config/waybar/scripts/audio-display.sh",
         "format": "| {} | "
     },
 
