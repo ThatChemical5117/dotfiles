@@ -19,7 +19,15 @@ return require('packer').startup(function(use)
 	-- Packer can manage itself
 	use 'wbthomason/packer.nvim'
 
-	-- git integration
+-- Git integration
+	use {
+		'NeogitOrg/neogit',
+		requires = {
+			{ 'nvim-lua/plenary.nvim' },
+			{ 'nvim-telescope/telescope.nvim'},
+			{ 'sindrets/diffview.nvim'},
+		}
+	}
 	use "lewis6991/gitsigns.nvim"
 
 	use "jbyuki/nabla.nvim"
@@ -82,15 +90,6 @@ return require('packer').startup(function(use)
 		}
 	}
 
-	-- Git integration
-	use {
-		'NeogitOrg/neogit',
-		requires = {
-			{ 'nvim-lua/plenary.nvim' },
-			{ 'nvim-telescope/telescope.nvim'},
-			{ 'sindrets/diffview.nvim'},
-		}
-	}
 
 	-- LSP for languages, managed by mason, and auto complete with cmp
 	use {
@@ -109,25 +108,6 @@ return require('packer').startup(function(use)
 			{ 'hrsh7th/cmp-nvim-lua' },
 			{ 'L3MON4D3/LuaSnip'},
 			{ 'rafamadriz/friendly-snippets' },
-		}
-	}
-
-	-- DAP for debugging
-	use "mfussenegger/nvim-dap"
-
-	use {
-		"jay-babu/mason-nvim-dap.nvim",
-		requires = {
-			{ 'williamboman/mason.nvim' },
-			{ 'mfussenegger/nvim-dap' }
-		}
-	}
-
-	use {
-		"rcarriga/nvim-dap-ui",
-		requires = {
-			{ "mfussenegger/nvim-dap" },
-			{ "nvim-neotest/nvim-nio" }
 		}
 	}
 
