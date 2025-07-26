@@ -12,6 +12,11 @@
 #                       |_____|_|                           
 
 # ~/.bash_profile
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_CACHE_HOME=$HOME/.cache
+export XDG_DATA_HOME=$HOME/.local/share
+export XDG_STATE_HOME=$HOME/.local/state
+
 
 # fcitx exports
 export GTK_IM_MODULE='fcitx5'
@@ -20,12 +25,13 @@ export SDL_IM_MODULE='fcitx5'
 export XMODIFIERS='@im=fcitx5'
 
 # CARGO EXORTS
-export PATH=$PATH:/home/michaelkik/.local/share/cargo/bin
+export PATH=$PATH:/home/ThatChemical/.local/bin
+export PATH=$PATH:$XDG_DATA_HOME/cargo/bin
 
 #EXPORTS for LF
 export EDITOR="nvim"
 export BROWSER="firefox"
-export GTK_THEEME="Adwaita-dark"
+export GTK_THEME="Adwaita:dark"
 
 # $HOME config relocation
 export ELINKS_CONFDIR="$XDG_DATA_HOME"/elinks
@@ -54,4 +60,10 @@ if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
     exec Hyprland
 fi
 
-. "/home/michaelkik/.local/share/cargo/env"
+if [ -n "$BASH_VERSION" ]; then
+	if [ -f "$HOME/.bashrc" ]; then
+		. "$HOME/.bashrc"
+	fi
+fi
+
+. "/home/ThatChemical/.local/share/cargo/env"

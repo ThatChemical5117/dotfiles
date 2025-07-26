@@ -1,5 +1,5 @@
 [default]
-path  = "/home/michaelkik/Pictures/Wallpapers"
+path  = "/home/ThatChemical/Pictures/Wallpapers"
 duration = "180m"
 sorting = "random"
-queue_size = 25
+queue-size = 25

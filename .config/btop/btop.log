@@ -1223,3 +1223,651 @@
 2024/06/01 (20:53:22) | DEBUG: Loading theme file: /home/michaelkik/.config/btop/themes/catppuccin_mocha.theme
 2024/06/01 (20:53:26) | DEBUG: Writing new config file
 2024/06/01 (20:53:26) | INFO: Quitting! Runtime: 00:00:04
+
+2024/12/30 (17:56:31) | ===> btop++ v.1.4.0
+2024/12/30 (17:56:31) | INFO: Logger set to DEBUG
+2024/12/30 (17:56:31) | DEBUG: Using locale C.UTF-8
+2024/12/30 (17:56:31) | INFO: Running on /dev/pts/0
+2024/12/30 (17:56:31) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/30 (17:56:31) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/30 (17:56:31) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/30 (17:56:31) | DEBUG: Shared::init() : Initialized.
+2024/12/30 (17:58:41) | DEBUG: Writing new config file
+2024/12/30 (17:58:41) | INFO: Quitting! Runtime: 00:02:10
+
+2024/12/30 (18:51:27) | ===> btop++ v.1.4.0
+2024/12/30 (18:51:27) | INFO: Logger set to DEBUG
+2024/12/30 (18:51:27) | DEBUG: Using locale C.UTF-8
+2024/12/30 (18:51:27) | INFO: Running on /dev/pts/0
+2024/12/30 (18:51:27) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/30 (18:51:27) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/30 (18:51:27) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/30 (18:51:27) | DEBUG: Shared::init() : Initialized.
+
+2024/12/31 (17:22:28) | ===> btop++ v.1.4.0
+2024/12/31 (17:22:28) | INFO: Logger set to DEBUG
+2024/12/31 (17:22:28) | DEBUG: Using locale C.UTF-8
+2024/12/31 (17:22:28) | INFO: Running on /dev/pts/1
+2024/12/31 (17:22:28) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/31 (17:22:28) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/31 (17:22:28) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/31 (17:22:28) | DEBUG: Shared::init() : Initialized.
+2024/12/31 (17:22:40) | INFO: Quitting! Runtime: 00:00:12
+
+2024/12/31 (17:26:59) | ===> btop++ v.1.4.0
+2024/12/31 (17:26:59) | INFO: Logger set to DEBUG
+2024/12/31 (17:26:59) | DEBUG: Using locale C.UTF-8
+2024/12/31 (17:26:59) | INFO: Running on /dev/pts/0
+2024/12/31 (17:26:59) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/31 (17:26:59) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/31 (17:26:59) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/31 (17:26:59) | DEBUG: Shared::init() : Initialized.
+2024/12/31 (17:27:20) | DEBUG: Writing new config file
+2024/12/31 (17:27:20) | INFO: Quitting! Runtime: 00:00:21
+
+2024/12/31 (20:01:36) | ===> btop++ v.1.4.0
+2024/12/31 (20:01:36) | INFO: Logger set to DEBUG
+2024/12/31 (20:01:36) | DEBUG: Using locale C.UTF-8
+2024/12/31 (20:01:36) | INFO: Running on /dev/pts/0
+2024/12/31 (20:01:36) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/31 (20:01:36) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/31 (20:01:36) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/31 (20:01:36) | DEBUG: Shared::init() : Initialized.
+2024/12/31 (20:02:03) | DEBUG: Writing new config file
+2024/12/31 (20:02:03) | INFO: Quitting! Runtime: 00:00:27
+
+2024/12/31 (20:02:10) | ===> btop++ v.1.4.0
+2024/12/31 (20:02:10) | INFO: Logger set to DEBUG
+2024/12/31 (20:02:10) | DEBUG: Using locale C.UTF-8
+2024/12/31 (20:02:10) | INFO: Running on /dev/pts/0
+2024/12/31 (20:02:10) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/31 (20:02:10) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/31 (20:02:10) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/31 (20:02:10) | DEBUG: Shared::init() : Initialized.
+2024/12/31 (20:04:10) | DEBUG: Writing new config file
+2024/12/31 (20:04:10) | ERROR: Exception during Config::unlock() : unordered_map::at
+2024/12/31 (20:04:10) | INFO: Quitting! Runtime: 00:02:00
+
+2024/12/31 (20:04:12) | ===> btop++ v.1.4.0
+2024/12/31 (20:04:12) | INFO: Logger set to DEBUG
+2024/12/31 (20:04:12) | DEBUG: Using locale C.UTF-8
+2024/12/31 (20:04:12) | INFO: Running on /dev/pts/0
+2024/12/31 (20:04:12) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/31 (20:04:12) | INFO: Failed to load librocm_smi64.so, AMD GPUs will not be detected: librocm_smi64.so.6: cannot open shared object file: No such file or directory
+2024/12/31 (20:04:12) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/31 (20:04:12) | DEBUG: Shared::init() : Initialized.
+2024/12/31 (20:05:33) | INFO: Logger set to DEBUG
+
+2024/12/31 (20:12:13) | ===> btop++ v.1.2.13
+2024/12/31 (20:12:13) | INFO: Logger set to DEBUG
+2024/12/31 (20:12:13) | DEBUG: Using locale C.UTF-8
+2024/12/31 (20:12:13) | INFO: Running on /dev/pts/1
+2024/12/31 (20:12:13) | DEBUG: Shared::init() : Initialized.
+2024/12/31 (20:12:18) | WARNING: Failed to get disk/partition stats for mount "swap" with statvfs error code: 2. Ignoring...
+2024/12/31 (20:14:30) | DEBUG: Writing new config file
+2024/12/31 (20:14:30) | INFO: Quitting! Runtime: 00:02:17
+
+2024/12/31 (20:16:42) | ===> btop++ v.1.2.13
+2024/12/31 (20:16:42) | INFO: Logger set to DEBUG
+2024/12/31 (20:16:42) | DEBUG: Using locale C.UTF-8
+2024/12/31 (20:16:42) | INFO: Running on /dev/pts/1
+2024/12/31 (20:16:42) | DEBUG: Shared::init() : Initialized.
+2024/12/31 (20:16:43) | WARNING: Failed to get disk/partition stats for mount "swap" with statvfs error code: 2. Ignoring...
+
+2024/12/31 (20:18:29) | ===> btop++ v.1.4.0
+2024/12/31 (20:18:29) | INFO: Logger set to DEBUG
+2024/12/31 (20:18:29) | DEBUG: Using locale C.UTF-8
+2024/12/31 (20:18:29) | INFO: Running on /dev/pts/0
+2024/12/31 (20:18:29) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2024/12/31 (20:18:29) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2024/12/31 (20:18:29) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2024/12/31 (20:18:29) | WARNING: Intel GPU: Failed to initialize PMU
+2024/12/31 (20:18:29) | DEBUG: Shared::init() : Initialized.
+2024/12/31 (20:25:37) | DEBUG: Writing new config file
+2024/12/31 (20:25:37) | INFO: Quitting! Runtime: 00:07:08
+
+2025/01/02 (19:47:48) | ===> btop++ v.1.4.0
+2025/01/02 (19:47:48) | INFO: Logger set to DEBUG
+2025/01/02 (19:47:48) | DEBUG: Using locale C.UTF-8
+2025/01/02 (19:47:48) | INFO: Running on /dev/pts/0
+2025/01/02 (19:47:48) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/02 (19:47:48) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/02 (19:47:48) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/02 (19:47:48) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/02 (19:47:48) | DEBUG: Shared::init() : Initialized.
+
+2025/01/03 (19:14:05) | ===> btop++ v.1.4.0
+2025/01/03 (19:14:05) | INFO: Logger set to DEBUG
+2025/01/03 (19:14:05) | DEBUG: Using locale C.UTF-8
+2025/01/03 (19:14:05) | INFO: Running on /dev/pts/0
+2025/01/03 (19:14:05) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/03 (19:14:05) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/03 (19:14:05) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/03 (19:14:05) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/03 (19:14:05) | DEBUG: Shared::init() : Initialized.
+
+2025/01/06 (21:52:55) | ===> btop++ v.1.4.0
+2025/01/06 (21:52:55) | INFO: Logger set to DEBUG
+2025/01/06 (21:52:55) | DEBUG: Using locale C.UTF-8
+2025/01/06 (21:52:55) | INFO: Running on /dev/pts/0
+2025/01/06 (21:52:55) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/06 (21:52:55) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/06 (21:52:55) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/06 (21:52:55) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/06 (21:52:55) | DEBUG: Shared::init() : Initialized.
+
+2025/01/18 (15:04:00) | ===> btop++ v.1.4.0
+2025/01/18 (15:04:00) | INFO: Logger set to DEBUG
+2025/01/18 (15:04:00) | DEBUG: Using locale C.UTF-8
+2025/01/18 (15:04:00) | INFO: Running on /dev/pts/1
+2025/01/18 (15:04:00) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/18 (15:04:00) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/18 (15:04:00) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/18 (15:04:00) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/18 (15:04:00) | DEBUG: Shared::init() : Initialized.
+
+2025/01/20 (17:58:29) | ===> btop++ v.1.4.0
+2025/01/20 (17:58:29) | INFO: Logger set to DEBUG
+2025/01/20 (17:58:29) | DEBUG: Using locale C.UTF-8
+2025/01/20 (17:58:29) | INFO: Running on /dev/pts/0
+2025/01/20 (17:58:29) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/20 (17:58:29) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/20 (17:58:29) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/20 (17:58:29) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/20 (17:58:29) | DEBUG: Shared::init() : Initialized.
+
+2025/01/20 (21:06:05) | ===> btop++ v.1.4.0
+2025/01/20 (21:06:05) | INFO: Logger set to DEBUG
+2025/01/20 (21:06:05) | DEBUG: Using locale C.UTF-8
+2025/01/20 (21:06:05) | INFO: Running on /dev/pts/0
+2025/01/20 (21:06:05) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/20 (21:06:05) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/20 (21:06:05) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/20 (21:06:05) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/20 (21:06:05) | DEBUG: Shared::init() : Initialized.
+2025/01/20 (21:07:42) | DEBUG: Writing new config file
+2025/01/20 (21:07:42) | INFO: Quitting! Runtime: 00:01:37
+
+2025/01/21 (20:20:26) | ===> btop++ v.1.4.0
+2025/01/21 (20:20:26) | INFO: Logger set to DEBUG
+2025/01/21 (20:20:26) | DEBUG: Using locale C.UTF-8
+2025/01/21 (20:20:26) | INFO: Running on /dev/pts/0
+2025/01/21 (20:20:26) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/21 (20:20:26) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/21 (20:20:26) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/21 (20:20:26) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/21 (20:20:26) | DEBUG: Shared::init() : Initialized.
+2025/01/21 (20:26:59) | DEBUG: Writing new config file
+2025/01/21 (20:26:59) | ERROR: Exception in runner thread -> Gpu:: -> deque::_M_range_check: __n (which is 105)>= this->size() (which is 104)
+2025/01/21 (20:26:59) | INFO: Quitting! Runtime: 00:06:33
+
+2025/01/21 (20:27:02) | ===> btop++ v.1.4.0
+2025/01/21 (20:27:02) | INFO: Logger set to DEBUG
+2025/01/21 (20:27:02) | DEBUG: Using locale C.UTF-8
+2025/01/21 (20:27:02) | INFO: Running on /dev/pts/0
+2025/01/21 (20:27:02) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/21 (20:27:02) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/21 (20:27:02) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/21 (20:27:02) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/21 (20:27:02) | DEBUG: Shared::init() : Initialized.
+2025/01/21 (20:32:45) | DEBUG: Writing new config file
+2025/01/21 (20:32:45) | ERROR: Exception in runner thread -> Gpu:: -> deque::_M_range_check: __n (which is 111)>= this->size() (which is 108)
+2025/01/21 (20:32:45) | INFO: Quitting! Runtime: 00:05:43
+
+2025/01/21 (20:32:47) | ===> btop++ v.1.4.0
+2025/01/21 (20:32:47) | INFO: Logger set to DEBUG
+2025/01/21 (20:32:47) | DEBUG: Using locale C.UTF-8
+2025/01/21 (20:32:47) | INFO: Running on /dev/pts/0
+2025/01/21 (20:32:47) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/21 (20:32:47) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/21 (20:32:47) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/21 (20:32:47) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/21 (20:32:47) | DEBUG: Shared::init() : Initialized.
+2025/01/21 (20:32:47) | ERROR: Exception in runner thread -> Gpu:: -> deque::_M_range_check: __n (which is 5)>= this->size() (which is 2)
+2025/01/21 (20:32:47) | INFO: Quitting! Runtime: 00:00:00
+
+2025/01/21 (20:32:49) | ===> btop++ v.1.4.0
+2025/01/21 (20:32:49) | INFO: Logger set to DEBUG
+2025/01/21 (20:32:49) | DEBUG: Using locale C.UTF-8
+2025/01/21 (20:32:49) | INFO: Running on /dev/pts/0
+2025/01/21 (20:32:49) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/21 (20:32:49) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/21 (20:32:49) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/21 (20:32:49) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/21 (20:32:49) | DEBUG: Shared::init() : Initialized.
+2025/01/21 (20:32:49) | ERROR: Exception in runner thread -> Gpu:: -> deque::_M_range_check: __n (which is 5)>= this->size() (which is 2)
+2025/01/21 (20:32:49) | INFO: Quitting! Runtime: 00:00:00
+
+2025/01/21 (20:32:52) | ===> btop++ v.1.4.0
+2025/01/21 (20:32:52) | INFO: Logger set to DEBUG
+2025/01/21 (20:32:52) | DEBUG: Using locale C.UTF-8
+2025/01/21 (20:32:52) | INFO: Running on /dev/pts/0
+2025/01/21 (20:32:52) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/21 (20:32:52) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/21 (20:32:52) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/21 (20:32:52) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/21 (20:32:52) | DEBUG: Shared::init() : Initialized.
+2025/01/21 (20:32:53) | ERROR: Exception in runner thread -> Gpu:: -> basic_string::at: __n (which is 0) >= this->size() (which is 0)
+2025/01/21 (20:32:53) | INFO: Quitting! Runtime: 00:00:01
+
+2025/01/21 (20:32:56) | ===> btop++ v.1.4.0
+2025/01/21 (20:32:56) | INFO: Logger set to DEBUG
+2025/01/21 (20:32:56) | DEBUG: Using locale C.UTF-8
+2025/01/21 (20:32:56) | INFO: Running on /dev/pts/0
+2025/01/21 (20:32:56) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/21 (20:32:56) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/21 (20:32:56) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/21 (20:32:56) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/21 (20:32:56) | DEBUG: Shared::init() : Initialized.
+2025/01/21 (20:32:57) | ERROR: Exception in runner thread -> Gpu:: -> basic_string::at: __n (which is 0) >= this->size() (which is 0)
+2025/01/21 (20:32:57) | INFO: Quitting! Runtime: 00:00:01
+
+2025/01/23 (19:32:47) | ===> btop++ v.1.4.0
+2025/01/23 (19:32:47) | INFO: Logger set to DEBUG
+2025/01/23 (19:32:47) | DEBUG: Using locale C.UTF-8
+2025/01/23 (19:32:47) | INFO: Running on /dev/pts/4
+2025/01/23 (19:32:47) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/23 (19:32:47) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/23 (19:32:47) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/23 (19:32:47) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/23 (19:32:47) | DEBUG: Shared::init() : Initialized.
+
+2025/01/23 (20:53:42) | ===> btop++ v.1.4.0
+2025/01/23 (20:53:42) | INFO: Logger set to DEBUG
+2025/01/23 (20:53:42) | DEBUG: Using locale C.UTF-8
+2025/01/23 (20:53:42) | INFO: Running on /dev/pts/0
+2025/01/23 (20:53:42) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/23 (20:53:42) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/23 (20:53:42) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/23 (20:53:42) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/23 (20:53:42) | DEBUG: Shared::init() : Initialized.
+
+2025/01/24 (19:55:51) | ===> btop++ v.1.4.0
+2025/01/24 (19:55:51) | INFO: Logger set to DEBUG
+2025/01/24 (19:55:51) | DEBUG: Using locale C.UTF-8
+2025/01/24 (19:55:51) | INFO: Running on /dev/pts/0
+2025/01/24 (19:55:51) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/24 (19:55:51) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (19:55:51) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/24 (19:55:51) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/24 (19:55:51) | DEBUG: Shared::init() : Initialized.
+2025/01/24 (19:56:14) | DEBUG: Writing new config file
+2025/01/24 (19:56:14) | INFO: Quitting! Runtime: 00:00:23
+
+2025/01/24 (19:56:15) | ===> btop++ v.1.4.0
+2025/01/24 (19:56:15) | INFO: Logger set to DEBUG
+2025/01/24 (19:56:15) | DEBUG: Using locale C.UTF-8
+2025/01/24 (19:56:15) | INFO: Running on /dev/pts/0
+2025/01/24 (19:56:15) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/24 (19:56:15) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (19:56:15) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/24 (19:56:15) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/24 (19:56:15) | DEBUG: Shared::init() : Initialized.
+2025/01/24 (19:56:17) | INFO: Quitting! Runtime: 00:00:02
+
+2025/01/24 (19:56:19) | ===> btop++ v.1.4.0
+2025/01/24 (19:56:19) | INFO: Logger set to DEBUG
+2025/01/24 (19:56:19) | DEBUG: Using locale C.UTF-8
+2025/01/24 (19:56:19) | INFO: Running on /dev/pts/0
+2025/01/24 (19:56:19) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/24 (19:56:19) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (19:56:19) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/24 (19:56:19) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/24 (19:56:19) | DEBUG: Shared::init() : Initialized.
+
+2025/01/24 (19:57:31) | ===> btop++ v.1.4.0
+2025/01/24 (19:57:31) | INFO: Logger set to DEBUG
+2025/01/24 (19:57:31) | DEBUG: Using locale C.UTF-8
+2025/01/24 (19:57:31) | INFO: Running on /dev/pts/1
+2025/01/24 (19:57:31) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/24 (19:57:31) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (19:57:31) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/24 (19:57:31) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/24 (19:57:31) | DEBUG: Shared::init() : Initialized.
+
+2025/01/24 (20:19:09) | ===> btop++ v.1.4.0
+2025/01/24 (20:19:09) | INFO: Logger set to DEBUG
+2025/01/24 (20:19:09) | DEBUG: Using locale C.UTF-8
+2025/01/24 (20:19:09) | INFO: Running on /dev/pts/1
+2025/01/24 (20:19:09) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/24 (20:19:09) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (20:19:09) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/24 (20:19:09) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/24 (20:19:09) | DEBUG: Shared::init() : Initialized.
+
+2025/01/24 (20:33:32) | ===> btop++ v.1.4.0
+2025/01/24 (20:33:32) | INFO: Logger set to DEBUG
+2025/01/24 (20:33:32) | DEBUG: Using locale C.UTF-8
+2025/01/24 (20:33:32) | INFO: Running on /dev/pts/0
+2025/01/24 (20:33:32) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/24 (20:33:32) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/24 (20:33:32) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/24 (20:33:32) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/24 (20:33:32) | DEBUG: Shared::init() : Initialized.
+
+2025/01/25 (18:03:50) | ===> btop++ v.1.4.0
+2025/01/25 (18:03:50) | INFO: Logger set to DEBUG
+2025/01/25 (18:03:50) | DEBUG: Using locale C.UTF-8
+2025/01/25 (18:03:50) | INFO: Running on /dev/pts/0
+2025/01/25 (18:03:50) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/25 (18:03:50) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/25 (18:03:50) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/25 (18:03:50) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/25 (18:03:50) | DEBUG: Shared::init() : Initialized.
+
+2025/01/26 (13:22:50) | ===> btop++ v.1.4.0
+2025/01/26 (13:22:50) | INFO: Logger set to DEBUG
+2025/01/26 (13:22:50) | DEBUG: Using locale C.UTF-8
+2025/01/26 (13:22:50) | INFO: Running on /dev/pts/1
+2025/01/26 (13:22:50) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/26 (13:22:50) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/26 (13:22:50) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/26 (13:22:50) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/26 (13:22:50) | DEBUG: Shared::init() : Initialized.
+2025/01/26 (13:23:22) | INFO: Quitting! Runtime: 00:00:32
+
+2025/01/26 (14:25:31) | ===> btop++ v.1.4.0
+2025/01/26 (14:25:31) | INFO: Logger set to DEBUG
+2025/01/26 (14:25:31) | DEBUG: Using locale C.UTF-8
+2025/01/26 (14:25:31) | INFO: Running on /dev/pts/0
+2025/01/26 (14:25:31) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/26 (14:25:31) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/26 (14:25:31) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/26 (14:25:31) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/26 (14:25:31) | DEBUG: Shared::init() : Initialized.
+
+2025/01/26 (14:25:44) | ===> btop++ v.1.4.0
+2025/01/26 (14:25:44) | INFO: Logger set to DEBUG
+2025/01/26 (14:25:44) | DEBUG: Using locale C.UTF-8
+2025/01/26 (14:25:44) | INFO: Running on /dev/pts/0
+2025/01/26 (14:25:44) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/26 (14:25:44) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/26 (14:25:44) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/26 (14:25:44) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/26 (14:25:44) | DEBUG: Shared::init() : Initialized.
+
+2025/01/26 (19:37:11) | ===> btop++ v.1.4.0
+2025/01/26 (19:37:11) | INFO: Logger set to DEBUG
+2025/01/26 (19:37:11) | DEBUG: Using locale C.UTF-8
+2025/01/26 (19:37:11) | INFO: Running on /dev/pts/1
+2025/01/26 (19:37:11) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/26 (19:37:11) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/26 (19:37:11) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/26 (19:37:11) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/26 (19:37:11) | DEBUG: Shared::init() : Initialized.
+
+2025/01/27 (12:23:14) | ===> btop++ v.1.4.0
+2025/01/27 (12:23:14) | INFO: Logger set to DEBUG
+2025/01/27 (12:23:14) | DEBUG: Using locale C.UTF-8
+2025/01/27 (12:23:14) | INFO: Running on /dev/pts/0
+2025/01/27 (12:23:14) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/27 (12:23:14) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/27 (12:23:14) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/27 (12:23:14) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/27 (12:23:14) | DEBUG: Shared::init() : Initialized.
+
+2025/01/27 (14:22:53) | ===> btop++ v.1.4.0
+2025/01/27 (14:22:53) | INFO: Logger set to DEBUG
+2025/01/27 (14:22:53) | DEBUG: Using locale C.UTF-8
+2025/01/27 (14:22:53) | INFO: Running on /dev/pts/0
+2025/01/27 (14:22:53) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/27 (14:22:53) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/27 (14:22:53) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/27 (14:22:53) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/27 (14:22:53) | DEBUG: Shared::init() : Initialized.
+
+2025/01/27 (14:54:19) | ===> btop++ v.1.4.0
+2025/01/27 (14:54:19) | INFO: Logger set to DEBUG
+2025/01/27 (14:54:19) | DEBUG: Using locale C.UTF-8
+2025/01/27 (14:54:19) | INFO: Running on /dev/pts/0
+2025/01/27 (14:54:19) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/27 (14:54:19) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/27 (14:54:20) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/27 (14:54:20) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/27 (14:54:20) | DEBUG: Shared::init() : Initialized.
+
+2025/01/27 (16:17:11) | ===> btop++ v.1.4.0
+2025/01/27 (16:17:11) | INFO: Logger set to DEBUG
+2025/01/27 (16:17:11) | DEBUG: Using locale C.UTF-8
+2025/01/27 (16:17:11) | INFO: Running on /dev/pts/0
+2025/01/27 (16:17:11) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/27 (16:17:11) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/27 (16:17:11) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/27 (16:17:11) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/27 (16:17:11) | DEBUG: Shared::init() : Initialized.
+
+2025/01/27 (16:26:16) | ===> btop++ v.1.4.0
+2025/01/27 (16:26:16) | INFO: Logger set to DEBUG
+2025/01/27 (16:26:16) | DEBUG: Using locale C.UTF-8
+2025/01/27 (16:26:16) | INFO: Running on /dev/pts/2
+2025/01/27 (16:26:16) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/27 (16:26:16) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/27 (16:26:16) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/27 (16:26:16) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/27 (16:26:16) | DEBUG: Shared::init() : Initialized.
+2025/01/27 (16:26:32) | INFO: Quitting! Runtime: 00:00:16
+
+2025/01/27 (16:32:45) | ===> btop++ v.1.4.0
+2025/01/27 (16:32:45) | INFO: Logger set to DEBUG
+2025/01/27 (16:32:45) | DEBUG: Using locale C.UTF-8
+2025/01/27 (16:32:45) | INFO: Running on /dev/pts/0
+2025/01/27 (16:32:45) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/27 (16:32:45) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/27 (16:32:45) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/27 (16:32:45) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/27 (16:32:45) | DEBUG: Shared::init() : Initialized.
+2025/01/27 (16:32:54) | INFO: Quitting! Runtime: 00:00:09
+
+2025/01/27 (16:33:17) | ===> btop++ v.1.4.0
+2025/01/27 (16:33:17) | INFO: Logger set to DEBUG
+2025/01/27 (16:33:17) | DEBUG: Using locale C.UTF-8
+2025/01/27 (16:33:17) | INFO: Running on /dev/pts/0
+2025/01/27 (16:33:17) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/27 (16:33:17) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/27 (16:33:17) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/27 (16:33:17) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/27 (16:33:17) | DEBUG: Shared::init() : Initialized.
+
+2025/01/27 (16:54:07) | ===> btop++ v.1.4.0
+2025/01/27 (16:54:07) | INFO: Logger set to DEBUG
+2025/01/27 (16:54:07) | DEBUG: Using locale C.UTF-8
+2025/01/27 (16:54:07) | INFO: Running on /dev/pts/1
+2025/01/27 (16:54:07) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/27 (16:54:07) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/27 (16:54:07) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/27 (16:54:07) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/27 (16:54:07) | DEBUG: Shared::init() : Initialized.
+
+2025/01/27 (17:07:16) | ===> btop++ v.1.4.0
+2025/01/27 (17:07:16) | INFO: Logger set to DEBUG
+2025/01/27 (17:07:16) | DEBUG: Using locale C.UTF-8
+2025/01/27 (17:07:16) | INFO: Running on /dev/pts/2
+2025/01/27 (17:07:16) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/27 (17:07:16) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/27 (17:07:16) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/27 (17:07:16) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/27 (17:07:16) | DEBUG: Shared::init() : Initialized.
+
+2025/01/27 (19:33:53) | ===> btop++ v.1.4.0
+2025/01/27 (19:33:53) | INFO: Logger set to DEBUG
+2025/01/27 (19:33:53) | DEBUG: Using locale C.UTF-8
+2025/01/27 (19:33:53) | INFO: Running on /dev/pts/1
+2025/01/27 (19:33:53) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/27 (19:33:53) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/27 (19:33:53) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/27 (19:33:53) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/27 (19:33:53) | DEBUG: Shared::init() : Initialized.
+2025/01/27 (20:02:15) | INFO: Quitting! Runtime: 00:28:22
+
+2025/01/28 (21:21:22) | ===> btop++ v.1.4.0
+2025/01/28 (21:21:22) | INFO: Logger set to DEBUG
+2025/01/28 (21:21:22) | DEBUG: Using locale C.UTF-8
+2025/01/28 (21:21:22) | INFO: Running on /dev/pts/5
+2025/01/28 (21:21:22) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/28 (21:21:22) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/28 (21:21:22) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/28 (21:21:22) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/28 (21:21:22) | DEBUG: Shared::init() : Initialized.
+2025/01/28 (21:21:34) | INFO: Quitting! Runtime: 00:00:12
+
+2025/01/28 (21:42:04) | ===> btop++ v.1.4.0
+2025/01/28 (21:42:04) | INFO: Logger set to DEBUG
+2025/01/28 (21:42:04) | DEBUG: Using locale C.UTF-8
+2025/01/28 (21:42:04) | INFO: Running on /dev/pts/0
+2025/01/28 (21:42:04) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/28 (21:42:04) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/28 (21:42:04) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/28 (21:42:04) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/28 (21:42:04) | DEBUG: Shared::init() : Initialized.
+
+2025/01/28 (21:45:26) | ===> btop++ v.1.4.0
+2025/01/28 (21:45:26) | INFO: Logger set to DEBUG
+2025/01/28 (21:45:26) | DEBUG: Using locale C.UTF-8
+2025/01/28 (21:45:26) | INFO: Running on /dev/pts/0
+2025/01/28 (21:45:26) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/28 (21:45:26) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/28 (21:45:26) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/28 (21:45:26) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/28 (21:45:26) | DEBUG: Shared::init() : Initialized.
+2025/01/28 (21:45:55) | INFO: Quitting! Runtime: 00:00:29
+
+2025/01/29 (20:07:43) | ===> btop++ v.1.4.0
+2025/01/29 (20:07:43) | INFO: Logger set to DEBUG
+2025/01/29 (20:07:43) | DEBUG: Using locale C.UTF-8
+2025/01/29 (20:07:43) | INFO: Running on /dev/pts/5
+2025/01/29 (20:07:43) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/29 (20:07:43) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/29 (20:07:43) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/29 (20:07:43) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/29 (20:07:43) | DEBUG: Shared::init() : Initialized.
+2025/01/29 (20:07:52) | INFO: Quitting! Runtime: 00:00:09
+
+2025/01/29 (20:30:04) | ===> btop++ v.1.4.0
+2025/01/29 (20:30:04) | INFO: Logger set to DEBUG
+2025/01/29 (20:30:04) | DEBUG: Using locale C.UTF-8
+2025/01/29 (20:30:04) | INFO: Running on /dev/pts/0
+2025/01/29 (20:30:04) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/29 (20:30:04) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/29 (20:30:04) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/29 (20:30:04) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/29 (20:30:04) | DEBUG: Shared::init() : Initialized.
+2025/01/29 (20:30:10) | INFO: Quitting! Runtime: 00:00:06
+
+2025/01/30 (20:44:46) | ===> btop++ v.1.4.0
+2025/01/30 (20:44:46) | INFO: Logger set to DEBUG
+2025/01/30 (20:44:46) | DEBUG: Using locale C.UTF-8
+2025/01/30 (20:44:46) | INFO: Running on /dev/pts/2
+2025/01/30 (20:44:46) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/30 (20:44:46) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/30 (20:44:46) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/30 (20:44:46) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/30 (20:44:46) | DEBUG: Shared::init() : Initialized.
+
+2025/01/30 (20:49:08) | ===> btop++ v.1.4.0
+2025/01/30 (20:49:08) | INFO: Logger set to DEBUG
+2025/01/30 (20:49:08) | DEBUG: Using locale C.UTF-8
+2025/01/30 (20:49:08) | INFO: Running on /dev/pts/2
+2025/01/30 (20:49:08) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/30 (20:49:08) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/30 (20:49:08) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/30 (20:49:08) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/30 (20:49:08) | DEBUG: Shared::init() : Initialized.
+
+2025/01/31 (17:53:07) | ===> btop++ v.1.4.0
+2025/01/31 (17:53:07) | INFO: Logger set to DEBUG
+2025/01/31 (17:53:07) | DEBUG: Using locale C.UTF-8
+2025/01/31 (17:53:07) | INFO: Running on /dev/pts/3
+2025/01/31 (17:53:07) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/31 (17:53:07) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/31 (17:53:07) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/31 (17:53:07) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/31 (17:53:07) | DEBUG: Shared::init() : Initialized.
+2025/01/31 (17:53:39) | DEBUG: Writing new config file
+2025/01/31 (17:53:39) | INFO: Quitting! Runtime: 00:00:32
+
+2025/01/31 (19:15:22) | ===> btop++ v.1.4.0
+2025/01/31 (19:15:22) | INFO: Logger set to DEBUG
+2025/01/31 (19:15:22) | DEBUG: Using locale C.UTF-8
+2025/01/31 (19:15:22) | INFO: Running on /dev/pts/2
+2025/01/31 (19:15:22) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/01/31 (19:15:22) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/01/31 (19:15:22) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/01/31 (19:15:22) | WARNING: Intel GPU: Failed to initialize PMU
+2025/01/31 (19:15:22) | DEBUG: Shared::init() : Initialized.
+2025/01/31 (19:15:32) | INFO: Quitting! Runtime: 00:00:10
+
+2025/02/05 (17:49:33) | ===> btop++ v.1.4.0
+2025/02/05 (17:49:33) | INFO: Logger set to DEBUG
+2025/02/05 (17:49:33) | DEBUG: Using locale C.UTF-8
+2025/02/05 (17:49:33) | INFO: Running on /dev/pts/0
+2025/02/05 (17:49:33) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/02/05 (17:49:33) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/02/05 (17:49:33) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/02/05 (17:49:33) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/05 (17:49:33) | DEBUG: Shared::init() : Initialized.
+2025/02/05 (17:49:42) | INFO: Quitting! Runtime: 00:00:09
+
+2025/02/17 (18:58:04) | ===> btop++ v.1.4.0
+2025/02/17 (18:58:04) | INFO: Logger set to DEBUG
+2025/02/17 (18:58:04) | DEBUG: Using locale C.UTF-8
+2025/02/17 (18:58:04) | INFO: Running on /dev/pts/1
+2025/02/17 (18:58:04) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/02/17 (18:58:04) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/02/17 (18:58:04) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/02/17 (18:58:04) | WARNING: Intel GPU: Failed to initialize PMU
+2025/02/17 (18:58:04) | DEBUG: Shared::init() : Initialized.
+
+2025/03/04 (18:53:43) | ===> btop++ v.1.4.0
+2025/03/04 (18:53:43) | INFO: Logger set to DEBUG
+2025/03/04 (18:53:43) | DEBUG: Using locale C.UTF-8
+2025/03/04 (18:53:43) | INFO: Running on /dev/pts/0
+2025/03/04 (18:53:43) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/03/04 (18:53:43) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/03/04 (18:53:43) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/03/04 (18:53:43) | WARNING: Intel GPU: Failed to initialize PMU
+2025/03/04 (18:53:43) | DEBUG: Shared::init() : Initialized.
+2025/03/04 (18:53:46) | INFO: Quitting! Runtime: 00:00:03
+
+2025/03/12 (20:51:52) | ===> btop++ v.1.4.0
+2025/03/12 (20:51:52) | INFO: Logger set to DEBUG
+2025/03/12 (20:51:52) | DEBUG: Using locale C.UTF-8
+2025/03/12 (20:51:52) | INFO: Running on /dev/pts/0
+2025/03/12 (20:51:52) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/03/12 (20:51:52) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/03/12 (20:51:52) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/03/12 (20:51:52) | WARNING: Intel GPU: Failed to initialize PMU
+2025/03/12 (20:51:52) | DEBUG: Shared::init() : Initialized.
+2025/03/12 (20:51:54) | INFO: Quitting! Runtime: 00:00:02
+
+2025/03/14 (20:30:10) | ===> btop++ v.1.4.0
+2025/03/14 (20:30:10) | INFO: Logger set to DEBUG
+2025/03/14 (20:30:10) | DEBUG: Using locale C.UTF-8
+2025/03/14 (20:30:10) | INFO: Running on /dev/pts/0
+2025/03/14 (20:30:10) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/03/14 (20:30:10) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/03/14 (20:30:10) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/03/14 (20:30:10) | WARNING: Intel GPU: Failed to initialize PMU
+2025/03/14 (20:30:10) | DEBUG: Shared::init() : Initialized.
+2025/03/14 (20:30:12) | INFO: Quitting! Runtime: 00:00:02
+
+2025/03/25 (20:54:44) | ===> btop++ v.1.4.0
+2025/03/25 (20:54:44) | INFO: Logger set to DEBUG
+2025/03/25 (20:54:44) | DEBUG: Using locale C.UTF-8
+2025/03/25 (20:54:44) | INFO: Running on /dev/pts/0
+2025/03/25 (20:54:44) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/03/25 (20:54:44) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/03/25 (20:54:44) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/03/25 (20:54:44) | WARNING: Intel GPU: Failed to initialize PMU
+2025/03/25 (20:54:44) | DEBUG: Shared::init() : Initialized.
+2025/03/25 (20:54:50) | INFO: Quitting! Runtime: 00:00:06
+
+2025/04/04 (21:29:22) | ===> btop++ v.1.4.0
+2025/04/04 (21:29:22) | INFO: Logger set to DEBUG
+2025/04/04 (21:29:22) | DEBUG: Using locale C.UTF-8
+2025/04/04 (21:29:22) | INFO: Running on /dev/pts/1
+2025/04/04 (21:29:22) | INFO: Failed to load libnvidia-ml.so, NVIDIA GPUs will not be detected: libnvidia-ml.so.1: cannot open shared object file: No such file or directory
+2025/04/04 (21:29:22) | WARNING: ROCm SMI: Failed to get maximum GPU temperature, defaulting to 110°C
+2025/04/04 (21:29:22) | WARNING: ROCm SMI: Failed to get PCIe throughput
+2025/04/04 (21:29:22) | WARNING: Intel GPU: Failed to initialize PMU
+2025/04/04 (21:29:22) | DEBUG: Shared::init() : Initialized.
+2025/04/04 (21:29:26) | INFO: Quitting! Runtime: 00:00:04

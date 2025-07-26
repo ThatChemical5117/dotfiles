@@ -16,7 +16,7 @@
 [[ $- != *i* ]] && return
 
 # for SSH
-eval $(keychain --eval --quiet --nogui id_local id_mcserver )
+eval $(keychain --eval --quiet --nogui id_local id_github.com)
 
 # alias
 alias ls='ls --color=auto'
@@ -29,3 +29,4 @@ export FZF_DEFAULT_OPTS=" \
 --color=bg+:#313244,bg:-1,spinner:#f5e0dc,hl:#f38ba8,gutter:-1 \
 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc \
 --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8"
+. "/home/ThatChemical/.local/share/cargo/env"
